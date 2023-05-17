@@ -40,6 +40,7 @@
   "license": "MIT",
   "scripts": {
     "prepare": "yarn build",
+    "prepack": "yarn build",
     "build": "rm -rf dist && microbundle",
     "tsc-test": "tsc -p ./tsconfig.spec.json",
     "watch": "microbundle watch",
